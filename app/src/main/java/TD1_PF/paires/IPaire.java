@@ -1,4 +1,4 @@
-package TD1_PF;
+package TD1_PF.paires;
 
 public interface IPaire<A, B> {
 

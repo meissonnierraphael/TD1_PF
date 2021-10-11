@@ -3,6 +3,9 @@
  */
 package TD1_PF;
 
+import TD1_PF.paires.IPaire;
+import TD1_PF.paires.Paire;
+
 public class App {
 
     public static void question1_exercice2() {

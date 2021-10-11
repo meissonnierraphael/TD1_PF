@@ -1,4 +1,4 @@
-package TD1_PF;
+package TD1_PF.paires;
 
 public class Paire<A,B> implements IPaire<A,B>{
     
