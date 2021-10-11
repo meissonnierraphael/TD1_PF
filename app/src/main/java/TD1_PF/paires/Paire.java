@@ -1,3 +1,5 @@
+package TD1_PF;
+
 public class Paire<A,B> implements IPaire<A,B>{
     
     private A _fst;
@@ -10,7 +12,6 @@ public class Paire<A,B> implements IPaire<A,B>{
 
     public String toString(){
         return String.format("(%s, %s) :: Paire[%s,%s]", _fst, _snd, _fst.getClass().getSimpleName(), _snd.getClass().getSimpleName());
-
     }
 
     @Override

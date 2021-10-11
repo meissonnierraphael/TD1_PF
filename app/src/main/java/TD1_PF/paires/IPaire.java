@@ -1,4 +1,4 @@
-
+package TD1_PF;
 
 public interface IPaire<A, B> {
 

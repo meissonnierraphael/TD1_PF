@@ -4,11 +4,17 @@
 package TD1_PF;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
+
+    public static void question1_exercice2() {
+        IPaire<Integer, String> p1 = new Paire<>(1, "un");
+        System.out.println(p1);
+        IPaire<Double, String> p2 = p1.changeFst(1.0);
+        System.out.println(p2);
+        IPaire<Double, IPaire<Integer, String>> p3 = p2.changeSnd(p1);
+        System.out.println(p3);
     }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+    public static void main(final String[] args) {
+        question1_exercice2();
     }
 }
