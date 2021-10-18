@@ -1,4 +1,4 @@
-package TD1_PF.ArbresGeneralises;
+package TD1_PF.ArbresGeneralisesV2;
 
 import java.util.Set;
 
@@ -15,7 +15,7 @@ public class Feuille<T> implements Arbre<T> {
         return 1;
     }
 
-    @Override
+    /*@Override
     public boolean contient(T val) {
         return val.equals(this.val);
     }
@@ -24,4 +24,9 @@ public class Feuille<T> implements Arbre<T> {
     public Set<T> valeurs() {
         return Set.of(this.val);
     }
+
+    @Override
+    public T somme() {
+        return this.val;
+    }*/
 }
