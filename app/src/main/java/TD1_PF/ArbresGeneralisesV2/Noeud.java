@@ -32,12 +32,17 @@ public class Noeud<T> implements Arbre<T>{
         return cnt;
     }
 
-    /*@Override
+    @Override
     public Set<T> valeurs() {
         Set<T> monSet = new HashSet<>();
         for(Arbre<T> a : maList){
             monSet.addAll(a.valeurs());
         }
         return monSet;
-    }*/
+    }
+
+    @Override
+    public T somme() {
+        return null;
+    }
 }

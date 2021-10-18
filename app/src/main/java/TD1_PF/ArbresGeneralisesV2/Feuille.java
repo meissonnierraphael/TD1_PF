@@ -20,7 +20,7 @@ public class Feuille<T> implements Arbre<T> {
         return val.equals(this.val);
     }
 
-    /*@Override
+    @Override
     public Set<T> valeurs() {
         return Set.of(this.val);
     }
@@ -28,5 +28,5 @@ public class Feuille<T> implements Arbre<T> {
     @Override
     public T somme() {
         return this.val;
-    }*/
+    }
 }
