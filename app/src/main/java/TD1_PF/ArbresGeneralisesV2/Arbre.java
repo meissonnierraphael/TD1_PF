@@ -7,4 +7,7 @@ public interface Arbre<T extends Sommable> {
     boolean contient(T val);
     Set<T> valeurs();
     T somme();
+    T min();
+    T max();
+    Boolean estTrie();
 }

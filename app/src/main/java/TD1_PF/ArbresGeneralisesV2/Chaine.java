@@ -1,6 +1,6 @@
 package TD1_PF.ArbresGeneralisesV2;
 
-public class Chaine implements Sommable<Chaine>{
+public class Chaine implements Sommable<Chaine>, Comparable<Chaine>{
 
     private String machaine;
 
@@ -15,5 +15,10 @@ public class Chaine implements Sommable<Chaine>{
     @Override
     public Chaine sommer(Chaine val) {
         return new Chaine(this.machaine+val.valeur());
+    }
+
+    @Override
+    public int compareTo(Chaine o) {
+        return this.machaine.compareTo(o.valeur());
     }
 }
