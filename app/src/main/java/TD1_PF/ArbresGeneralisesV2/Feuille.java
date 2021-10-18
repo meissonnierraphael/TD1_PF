@@ -2,7 +2,7 @@ package TD1_PF.ArbresGeneralisesV2;
 
 import java.util.Set;
 
-public class Feuille<T> implements Arbre<T> {
+public class Feuille<T extends Sommable> implements Arbre<T> {
 
     private T val;
 

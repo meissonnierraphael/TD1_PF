@@ -47,4 +47,12 @@ public class AppTest {
         assertEquals(v2.taille(),1);
     }
 
+    /*@Test
+    public final void Test_sommer_arbre3(){
+
+        Sommable<Entier> e = new Entier(1);
+        Sommable<Entier> e2 = e.sommer(new Entier(1));
+        assertEquals(e2,2);
+    }*/
+
 }
