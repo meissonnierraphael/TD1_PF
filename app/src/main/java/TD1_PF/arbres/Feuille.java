@@ -42,7 +42,7 @@ public class Feuille implements Arbre{
 
     @Override
     public boolean estTrie() {
-        return false;
+        return true;
     }
     
 }
