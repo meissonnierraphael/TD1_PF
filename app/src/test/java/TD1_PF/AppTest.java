@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 
 import TD1_PF.ArbresGeneralisesV2.*;
 
+import java.nio.channels.Channel;
 import java.util.List;
 
 public class AppTest {
@@ -26,15 +27,17 @@ public class AppTest {
 
         Arbre<Chaine> v2 =new Feuille<>(new Chaine("quatre"));
         assertEquals(v2.contient("quatre"),"quatre");
-    }
+    }*/
 
     public static final void Test_contient_arbre2(){
         Arbre<Entier> v =new Feuille<>(new Entier(4));
-        assertEquals(v.contient(4),4);
+        Entier e1 = new Entier(4);
+        assertEquals(v.contient(e1),4);
 
         Arbre<Chaine> v2 =new Feuille<>(new Chaine("quatre"));
-        assertEquals(v2.contient("quatre"),"quatre");
-    }*/
+        Chaine c1 = new Chaine("quatre");
+        assertEquals(v2.contient(c1),"quatre");
+    }
 
     public static final void Test_taille_arbre2(){
         Arbre<Entier> v =new Feuille<>(new Entier(4));

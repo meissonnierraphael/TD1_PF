@@ -21,7 +21,7 @@ public class Noeud<T> implements Arbre<T>{
         return taille;
     }
 
-    /*@Override
+    @Override
     public boolean contient(T val) {
         boolean cnt = false;
         for(Arbre<T> a : maList){
@@ -32,7 +32,7 @@ public class Noeud<T> implements Arbre<T>{
         return cnt;
     }
 
-    @Override
+    /*@Override
     public Set<T> valeurs() {
         Set<T> monSet = new HashSet<>();
         for(Arbre<T> a : maList){
